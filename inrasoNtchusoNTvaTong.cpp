@@ -30,7 +30,7 @@ int main(){
         scanf("%d%d",&a,&b);
         int cnt = 0;
         for(int i = a; i <=b; i++){
-            if(csntvatong(i)&&nt(i))
+            if(csntvatong(i) && nt(i))
                 cnt++;
         }
         printf("%d\n",cnt);
